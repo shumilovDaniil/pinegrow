@@ -1,0 +1,37 @@
+@import "_vars";
+@import "_base";
+@import "_reset";
+@import "_root";
+
+// 
+@import "comps/_transition";
+@import "comps/_dimmed";
+
+// 
+// @import "comps/_accordion";
+// @import "comps/_dropdown";
+// @import "comps/_tabs";
+// @import "comps/_modals";
+// 
+// @import "swiper/_swiper";
+// @import "swiper/_swiper_custom";
+.btn {
+    background: #2C3878;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 14px 32px;
+    color: #fff;
+}
+
+.btn.btn--white {
+    background: #FFFFFF;
+    color: #333333;
+}
+
+.btn.btn--outline {
+    border: 1px solid #3C3C3C;
+    background-color: #fff;
+    color: #333333;
+    padding: 13px 32px;
+}
